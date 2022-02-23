@@ -1,16 +1,33 @@
-let nombre_producto = 'Batimóvil'
-let precio_producto = 40000
-let peso_producto = 18.5
-let tiene_descuento = true
-let descripcion_producto = 'Batimóvil a escala'
-let telefono_vendedor = "3225962363"
+//Controlando etiquetas
 
-const NOMBRE_CLIENTE="Juan José"
+//crear variable
 
-//SALIDAS
+/*let etiquetaTitulo = document.getElementById("a")
+let etiquetNavbar = document.getElementById("tituloNavbar")
+let etiquetaFoto = document.getElementById("papolin")
+console.log(etiquetaTitulo)
 
-console.log(nombre_producto)
-console.log("Su nombre es: " + NOMBRE_CLIENTE)
-console.log("El precio de su producto es: " + precio_producto)
-console.log(nombre_producto)
-console.log(nombre_producto)
+
+etiquetaTitulo.textContent="Tapitas FC"
+etiquetNavbar.textContent="McTristongo"
+etiquetaFoto.src="img/papolin2.jpg"
+
+etiquetaTitulo.classList.add("text-center")
+etiquetaTitulo.classList.add("text-warning")*/
+
+//Tienda
+
+let productosNombre = ["batimovil","baticamiseta"]
+let productosPrecio = [350000,70000]
+let productosPromocion = [true,false]
+
+console.log(productosNombre[0])
+
+//objetos
+
+let usuario = {
+    nombre:"Bruno Diaz",
+    edad:"48",
+    amigos:["ElPanaVictor","empanadita","esta"]
+}
+console.log(usuario.amigos[1])
