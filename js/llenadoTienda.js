@@ -7,3 +7,9 @@ let productos = [
 ]
 
 console.log(productos)
+
+//Recorrer un arreglo
+
+productos.forEach(function(producto){
+    console.log(producto.nombre)
+})
